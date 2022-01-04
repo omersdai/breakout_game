@@ -19,7 +19,7 @@ body {
   align-items: center;
   min-height: 100vh;
   width: 100vw;
-  @include set-background($primaryColor);
+  // @include set-background($primaryColor);
 }
 
 canvas {
