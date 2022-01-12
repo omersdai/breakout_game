@@ -47,16 +47,16 @@ function createPlayer() {
   };
 }
 
-const blockColors = [
-  'rgb(228, 101, 122)', // pink
-  'rgb(204, 46, 46)', // red
-  'rgb(255, 166, 0)', // orange
-  'rgb(214, 214, 57)', // yellow
-  'rgb(79, 145, 79)', // green
-  'rgb(60, 60, 192)', // blue
-  'rgb(161, 68, 173)', // purple
-  'rgb(0, 191, 255)', // blue
-];
+const PINK = 'rgb(228, 101, 122)',
+  RED = 'rgb(204, 46, 46)',
+  ORANGE = 'rgb(255, 166, 0)',
+  YELLOW = 'rgb(214, 214, 57)',
+  GREEN = 'rgb(79, 145, 79)',
+  BLUE = 'rgb(60, 60, 192)',
+  PURPLE = 'rgb(161, 68, 173)',
+  DARK_BLUE = 'rgb(0, 191, 255)';
+
+const blockColors = [PINK, RED, ORANGE, YELLOW, GREEN, BLUE, PURPLE, DARK_BLUE];
 const blockColumnCount = 13;
 const blockHeight = 30;
 const margin = 10;
